@@ -1,0 +1,12 @@
+[package]
+name = "signal-hook-windows-test"
+version = "0.1.0"
+authors = ["David Pacheco <dap@oxidecomputer.com>"]
+edition = "2018"
+
+[dependencies]
+signal-hook = "0.3"
+
+[dependencies.signal-hook-tokio]
+version = "0.3"
+features = [ "futures-v0_3" ]
